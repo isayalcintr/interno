@@ -1,0 +1,12 @@
+{
+  "name": "interno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i tailwind.css -o src/dist/css/main.css",
+    "watch": "npx tailwindcss -i tailwind.css -o src/dist/css/main.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
